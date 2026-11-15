@@ -8,8 +8,8 @@ Cada classe, método e mensagem do diagrama existe no código com o mesmo nome e
 
 | Sistema | Programa interativo | Teste automatizado |
 |---|---|---|
-| Linux / macOS | `./compilar_e_executar.sh` | `./executar_teste.sh` |
-| Windows | `compilar_e_executar.bat` | `executar_teste.bat` |
+| Linux / macOS |`cd ProjetoFinal/MarmitasJava`, `chmod +x compilar_e_executar.sh executar_teste.sh` `./compilar_e_executar.sh`| `./executar_teste.sh` |
+| Windows |`cd ProjetoFinal\MarmitasJava`, `compilar_e_executar.bat` | `executar_teste.bat` |
 
 O código de acesso enviado por SMS é **simulado**: ele aparece no console (`[SMS simulado] ... seu código de acesso é 123456`).
 Cartões para teste: `4242 4242 4242 4242` (aprovado), `4000 0000 0000 0002` (recusado). Use validade futura (ex.: `12/39`) e CVV de 3 dígitos.
